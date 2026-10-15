@@ -1,5 +1,5 @@
 <?php
-// biodata.php
+
 function statusKelulusan(float $ipk): string
 {
     if ($ipk >= 3.50) return 'Sangat Memuaskan';
@@ -8,8 +8,8 @@ function statusKelulusan(float $ipk): string
 }
 
 $mahasiswa = [
-    'nim' => '4524210131',
-    'nama' => 'Vina Aisya Hafiz',
+    'nim' => '2026001',
+    'nama' => 'Andi Pratama',
     'prodi' => 'Teknik Informatika',
     'semester' => 5,
     'ipk' => 3.71

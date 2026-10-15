@@ -1,5 +1,5 @@
   <?php
-// kalkulator.php
+
 $hasil = null;
 $pesan = '';
 

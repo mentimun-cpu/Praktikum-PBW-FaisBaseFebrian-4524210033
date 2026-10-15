@@ -1,8 +1,4 @@
 <?php
-// =======================
-// CONTOH 2: BIODATA (MODIFIKASI)
-// =======================
-
 function statusKelulusan(float $ipk): string {
     if ($ipk >= 3.50) return 'Sangat Memuaskan (Cumlaude)';
     if ($ipk >= 3.00) return 'Memuaskan';
@@ -10,7 +6,6 @@ function statusKelulusan(float $ipk): string {
     return 'Perlu Peningkatan';
 }
 
-// Kondisi baru: cek kelayakan beasiswa
 function cekBeasiswa(float $ipk, int $semester): string {
     if ($ipk >= 3.50 && $semester <= 6) return "Layak Beasiswa Prestasi";
     if ($ipk >= 3.00 && $semester <= 8) return "Layak Beasiswa Bantuan";
@@ -18,13 +13,13 @@ function cekBeasiswa(float $ipk, int $semester): string {
 }
 
 $mahasiswa = [
-    'nim'      => '4524210131',
-    'nama'     => 'Vina Aisya Hafiz',
+    'nim'      => '4524210033',
+    'nama'     => 'Fais Base Febrian',
     'prodi'    => 'Teknik Informatika',
     'semester' => 5,
     'ipk'      => 3.71,
-    'email'    => 'vina.aisya@up.ac.id',   // Field baru
-    'alamat'   => 'Jl. Merdeka No. 10, JakartaBogor' // Field baru
+    'email'    => 'fais.base@up.ac.id',   
+    'alamat'   => 'Jl. Merdeka No. 10, JakartaBogor' 
 ];
 ?>
 

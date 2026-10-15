@@ -1,18 +1,13 @@
 <?php
-// =======================
-// CONTOH 1: KALKULATOR (MODIFIKASI)
-// =======================
 
 $hasil = "";
 $error = "";
 
-// Cek apakah form sudah disubmit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $angka1   = $_POST['angka1'];
     $angka2   = $_POST['angka2'];
     $operator = $_POST['operator'];
 
-    // Validasi: pastikan input angka
     if (!is_numeric($angka1) || !is_numeric($angka2)) {
         $error = "Input harus berupa angka!";
     } else {
