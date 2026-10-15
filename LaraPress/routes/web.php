@@ -4,7 +4,13 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pertemuan3.welcome');
+});
+Route::get('/tentang-kami', function () {
+    return view('pertemuan3.about');
+});
+Route::get('/kontak', function () {
+    return view('pertemuan3.contact');
 });
 
 Route::get('/dashboard', function () {

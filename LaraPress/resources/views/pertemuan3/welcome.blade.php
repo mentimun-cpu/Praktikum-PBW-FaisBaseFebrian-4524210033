@@ -10,7 +10,7 @@
 
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #beffdeea 0%, #dfcaae 100%);
+            background: linear-gradient(135deg, #fc000098 0%, #00000000 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -106,7 +106,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🚀 Selamat Datang di LaraPress</h1>
+            <h1>Selamat Datang di LaraPress</h1>
             <p>Blog sederhana berbasis Laravel 12</p>
         </div>
         <div class="content">
