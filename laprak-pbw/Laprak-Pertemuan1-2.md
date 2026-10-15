@@ -40,8 +40,7 @@ A. **Modifikasi kalkulator.php: Input dari Form & Validasi**
    Sebelum: Angka dan operator di-hardcode. 
    Sesudah: Input dari form HTML, ada validasi input, dan tampilan lebih rapi.
 
-<img width="672" height="923" alt="Screenshot 2026-09-22 180152" src="https://github.com/user-attachments/assets/486f4341-dd32-485c-bb64-662becfca3cb" />
-<img width="612" height="512" alt="Screenshot 2026-09-22 180218" src="https://github.com/user-attachments/assets/66882d96-bbff-4d0c-8ee2-cfe019202a09" />
+<img width="1710" height="3408" alt="tgs-kalkulator" src="https://github.com/user-attachments/assets/e5f007f2-dfe2-4296-b57e-7bdfe1144701" />
 
 **Hasil Run:**  
 <img width="1146" height="682" alt="Screenshot 2026-09-22 173911" src="https://github.com/user-attachments/assets/808c3833-151a-4dde-a824-f411f3429a65" />
@@ -51,12 +50,10 @@ A. **Modifikasi kalkulator.php: Input dari Form & Validasi**
 
 Sebelum: Hanya field dasar, tanpa styling, hanya satu kondisi.  
 	Sesudah: Ada field email & alamat, kondisi beasiswa, dan CSS.  
-<img width="802" height="876" alt="Screenshot 2026-09-22 180634" src="https://github.com/user-attachments/assets/d57f17cd-6b3e-4a5a-b416-6f264fc4214b" />
-<img width="732" height="576" alt="Screenshot 2026-09-22 180725" src="https://github.com/user-attachments/assets/06d5930c-7df9-4f74-8dd7-de1bcff16181" />
+<img width="1680" height="2762" alt="tgs-biodata" src="https://github.com/user-attachments/assets/2e472080-ee5b-4b4a-bad7-e6dc37949a25" />
 
 **Hasil Run:**  
-<img width="1253" height="798" alt="Screenshot 2026-09-22 173923" src="https://github.com/user-attachments/assets/59338f9c-a63e-4779-9614-8b8523710797" />
-
+<img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/0b5ba442-1ca9-40eb-811c-2950e66dcd47" />
 
 3. **Tuliskan penjelasan singkat untuk lima bagian kode yang menurut Anda paling penting.**  
 1. Superglobals \$\_POST (kalkulator.php)  
@@ -82,7 +79,7 @@ Sebelum: Hanya field dasar, tanpa styling, hanya satu kondisi.
 <img width="572" height="328" alt="Screenshot 2026-09-23 185946" src="https://github.com/user-attachments/assets/ffe2319a-353d-4ac1-8e53-af033333d1b7" />
 
 **biodata.php setelah modifikasi**  
-<img width="1253" height="798" alt="Screenshot 2026-09-22 173923" src="https://github.com/user-attachments/assets/a74c7f97-2af2-447b-8e19-5bbd8c29d646" />
+<img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/40c3f50b-6738-44c7-82bf-555eff6a37d6" />
 
 5. **Tuliskan satu error yang pernah muncul, penyebabnya, dan langkah perbaikannya**
 
@@ -107,4 +104,4 @@ Langkah Perbaikan:
 5. <img width="831" height="156" alt="Screenshot 2026-09-23 185851" src="https://github.com/user-attachments/assets/6b28b11d-0549-4d1f-aab6-7c3a7775fe94" />
 
 Setelah Apache dijalankan, program biodata.php dapat diakses kembali dan berjalan normal tanpa error.   
-<img width="567" height="396" alt="Screenshot 2026-09-22 173111" src="https://github.com/user-attachments/assets/9386d810-bdf5-48d8-9104-07c2a30972d9" />
+<img width="472" height="310" alt="image" src="https://github.com/user-attachments/assets/b15e8c05-7ab2-4f67-b978-96a59e52cc6c" />
